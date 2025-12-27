@@ -1,7 +1,7 @@
 terraform {
   backend "azurerm" {
     resource_group_name  = "terraformdemo"
-    storage_account_name = "terraformdemostora990"
+    storage_account_name = "terraformdemostoraa990"
     container_name       = "terraformcontain"
     key                  = "default.terraform.tfstate"
     use_oidc             = true
